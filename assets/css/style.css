@@ -76,7 +76,7 @@ body {
 }
 
 #about {
-  color:#fff;
+  color: #fff;
 }
 
 /* PERSNONAL INFORMATION */
@@ -335,20 +335,10 @@ body {
 }
 
 /* RESUME SECTION - SKILLS SECTION */
-.resume-tittle {
-  margin-left: 60px;
-  display: inline-block;
-  font-family: 'Roboto Slab';
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 53px;
-  color: #000000;
-}
-
 /* WORKING SKILLS */
 .skills-section {
   padding-bottom: 30px;
-  margin: 40px 0 30px 0;
+  margin: 60px 0 30px 0;
   background: #F8FBFB;
   display: flex;
   justify-content: space-evenly;
@@ -371,7 +361,9 @@ body {
   line-height: 39px;
 }
 
-.skill-name, .ratio, .single-tab {
+.skill-name,
+.ratio,
+.single-tab {
   color: #44566C;
   font-family: 'Poppins';
   font-style: normal;
@@ -553,55 +545,74 @@ body {
 
 
 /* RESPONSIVE */
-/* @media screen  and (max-width: 991.9px) {
-  #menu {
+@media screen and (max-width: 61.99375em) {
+  body {
+    width: 100%;
+  }
+  /* MENU */
+  .menu {
     position: fixed;
-    left: -150px;
-    height: 560px;
-  }
-
-  #menu ul {
-    flex-direction: column;
-  }
-
-  #menu li {
-    margin-bottom: 20px;
-  }
-
-  #menu:hover {
-    left: 0;
+    top: 60px;
+    left: -80px;
+    transition: 0.5s ease-in;
     z-index: 1;
   }
 
+  .menu ul {
+    flex-direction: column;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 16px;
+  }
+
+  .menu ul li {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .menu ul:first-child {
+    margin-top: 10px;
+  }
+
+  .menu:hover {
+    left: 0;
+    transition: 0.5s ease-out;
+    z-index: 1;
+  }
+
+  /* PERSONAL INFORMATION */
   .personal-infor {
-    width: 850px;
-    height: 560px;
+    width: 900px;
+    height: 400px;
+    top: 60px;
+    left: 20px ;
     flex-direction: row;
   }
 
   .avatar {
-    margin: -240px 0 0 -510px;
-    position: absolute;
-  }
-  
-  .name {
-    margin-left: 80px;
-    margin-top: -100px;
+    margin-left: 40px;
+    margin-top: -80px;
   }
 
-  .designation {
-    margin-left: 80px;
+  .main-infor {
+    align-items: flex-start;
+    margin-left: 100px;
+  }
+
+  .name {
+    margin-top: -30px;
   }
 
   .social-icons {
-    margin-left: 115px;
+    margin-left: 0px;
+    margin-bottom: 5px;
   }
 
   .cart {
-    width: 500px;
+    width: inherit;
+    margin: 0;
     background-color: #fff;
-    margin-left: 380px;
-    margin-top: -0px;
   }
 
   .line-cart {
@@ -609,20 +620,29 @@ body {
   }
 
   .cart ul {
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
   }
 
   .cart li {
     width: 50%;
+  }  
+  
+   /* MAIN CONTENT */
+  .main-content {
+    width: 900px;
+    top: 530px;
+    left: 20px;
+  } 
+
+  .service {
+    flex-flow: column nowrap; 
   }
 
-  .personal-infor {
-    left: 30px;
+  .single-service {
+    width: 100%;
+    height: 100%;
   }
-
-  #about-section {
-    top: 870px;
-    left: 30px;
-  }
-} */
+}
