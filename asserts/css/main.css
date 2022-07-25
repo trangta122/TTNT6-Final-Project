@@ -561,6 +561,9 @@ body {
 
 /* RESPONSIVE */
 @media screen and (max-width: 991.9px) {
+    body {
+        width: 100%
+    }
     #container {
         display: block;
         margin-top: 50px;
