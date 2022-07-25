@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(../img/bg.jpg) repeat-y;
+    background: url(../img/bg.jpg) repeat;
 }
 
 /* BUILD LAYOUT */
@@ -237,6 +237,11 @@ body {
 .menu .about p {
     color: #fff;
 }
+
+.menu a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 
 /* MAIN CONTENT */
 /* MAIN CONTENT - ABOIUT SECTION */
