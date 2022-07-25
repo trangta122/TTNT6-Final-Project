@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/bg.jpg) repeat-y;
+}
+
+/* BUILD LAYOUT */
+#container {
+    margin-top: 240px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu {
+    width: 560px;
+    height: 144px;
+    /* float: right; */
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.personal-infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 734px;
+    margin-top: -144px;
+    margin-right: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.main-content {
+    width: 850px;
+    height: 1206px;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    width: 84px;
+    height: 84px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #F3F6F6;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.menu img {
+    width: 25px;
+    height: 25px;
+}
+
+.menu p {
+    color: #44566C;
+    margin-top: -5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.menu .works:hover {
+    background: linear-gradient(93.74deg, #FA5252 0%, #DD2476 100%);
+}
+
+.menu .works:hover p {
+    color: #fff;
+}
+
+/* PERSONAL INFORMATION */
+.personal-infor {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 240px;
+    height: 240px;
+    margin-top: -120px;
+}
+
+.name {
+    padding-top: 20px;
+    color: #000;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    /* text-align: center; */
+}
+
+.designation {
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    background: #F3F6F7;
+    border-radius: 8px;
+}
+
+.designation p {
+    padding: 5px 20px;
+    color: #000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* PERSONAL INFORMATION - SOCIAL ICONS */
+.social-icons {
+    padding-top: 20px;
+    display: flex;
+}
+
+.social-icon-item {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3F6F7;
+    border-radius: 8px;
+}
+
+.social-icons:last-child {
+    margin-left: 0;
+}
+
+/* PERSONAL INFORMATION - CART */
+.cart {
+    width: 340px;
+    padding: 30px 0;
+}
+
+.cart ul {
+    padding: 20px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: #F3F6F6;
+    border-radius: 16px;
+}
+
+.box-cart {
+    display: flex;
+}
+
+.icon-cart {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-cart .tittle {
+    color: #44566C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.content-cart .detail {
+    color: #000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.line-cart {
+    width: 280px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.cart li:last-child {
+    padding-top: 10px;
+}
+
+/* PERSONAL INFORMATION - DOWNLOAD CV BUTTON */
+.downloadcv {
+    width: 215px;
+    height: 55px;
+    background: linear-gradient(93.74deg, #FA5252 0%, #DD2476 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadcv p {
+    color: #FFF;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 991.9px) {
+    body {
+        width: 100%;
+    }    
+
+    #container {
+        
+    }
+
+    
+}
