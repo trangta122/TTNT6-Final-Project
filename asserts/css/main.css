@@ -33,7 +33,7 @@ body {
     border-radius: 20px;
 }
 
-.menu {
+.nav {
     width: 560px;
     height: 144px;
     margin-bottom: 40px;
@@ -194,14 +194,14 @@ body {
     line-height: 27px;
 }
 
-/* MENU */
-.menu {
+/* nav */
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menu a {
+.nav a {
     width: 84px;
     height: 84px;
     margin: 0 10px;
@@ -214,12 +214,12 @@ body {
     text-decoration: none;
 }
 
-.menu img {
+.nav img {
     width: 25px;
     height: 25px;
 }
 
-.menu p {
+.nav p {
     color: #44566C;
     margin-top: -5px;
     font-family: 'Poppins';
@@ -230,15 +230,15 @@ body {
     text-align: center;
 }
 
-.menu .about {
+.nav .about {
     background: linear-gradient(93.74deg, #FA5252 0%, #DD2476 100%);
 }
 
-.menu .about p {
+.nav .about p {
     color: #fff;
 }
 
-.menu a:hover {
+.nav a:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -561,9 +561,6 @@ body {
 
 /* RESPONSIVE */
 @media screen and (max-width: 991.9px) {
-    body {
-        width: 100%
-    }
     #container {
         display: block;
         margin-top: 50px;
@@ -609,12 +606,12 @@ body {
         border: 1px solid #fff;
     }
 
-    /* MENU & MAIN CONTENT */
+    /* nav & MAIN CONTENT */
     .wrapper {
         align-items: flex-start;
     }
 
-    .menu {
+    .nav {
         width: fit-content;
         height: fit-content;
         position: fixed;
@@ -625,17 +622,17 @@ body {
         z-index: 1;
     }
 
-    .menu a {
+    .nav a {
         width: 75px;
         height: 75px;
         margin-bottom: 10px;
     }
 
-    .menu .about {
+    .nav .about {
         margin-top: 10px;
     }
 
-    .menu:hover {
+    .nav:hover {
         margin-left: 0;
         transition: all 0.5s ease-out;
     }
