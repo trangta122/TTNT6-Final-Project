@@ -1,0 +1,79 @@
+@media screen and (max-width: 991.9px) {
+    #container {
+        display: block;
+        margin-top: 50px;
+    }
+
+    /* PERSONAL INFORMATION */
+    .personal-infor {
+        width: 850px;
+        height: fit-content;
+        padding: 30px 50px 50px;
+        margin: 0 0 50px 30px;
+        flex-direction: row;
+    }
+
+    .main-infor {
+        align-items: flex-start;
+    }
+
+    .avatar {
+        filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+        margin: -70px 60px 0 0;
+    }
+
+    .cart {
+        width: inherit;
+        padding: 5px 0;
+    }
+
+    .cart ul {
+        padding: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #fff;
+    }
+
+    .cart li {
+        width: 50%;
+    }
+
+    .line-cart {
+        border: 1px solid #fff;
+    }
+
+    /* NAVIGATION & MAIN CONTENT */
+    .wrapper {
+        align-items: flex-start;
+    }
+
+    .nav {
+        width: fit-content;
+        height: fit-content;
+        position: fixed;
+        margin: -485px 0 0 -85px ;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        z-index: 1;
+    }
+
+    .nav a {
+        width: 75px;
+        height: 75px;
+        margin-bottom: 10px;
+    }
+
+    .nav .about {
+        margin-top: 10px;
+    }
+
+    .nav:hover {
+        margin-left: 0;
+        transition: all 0.5s ease-out;
+    }
+
+    .main-content {
+        width: 850px;
+        margin-left: 30px;
+    }
+}

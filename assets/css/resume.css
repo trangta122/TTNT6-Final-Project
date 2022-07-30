@@ -41,7 +41,7 @@ body {
     align-items: flex-end;
 }
 
-.resume-section {
+.main-content {
     width: 850px;
     height: 1155px;
     margin-top: 40px;
@@ -248,11 +248,11 @@ body {
 
 /* MAIN CONTENT */
 /* HEADER */
-.resume-section {
+.main-content {
     padding: 60px 0px 0px;
 }
 
-.resume-section .section-tittle {
+.main-content .section-tittle {
     color: #000;
     padding-left: 60px;
     display: inline-block;

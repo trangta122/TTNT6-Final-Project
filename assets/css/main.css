@@ -570,9 +570,8 @@ body {
     .personal-infor {
         width: 850px;
         height: fit-content;
-        padding: 30px 40px 40px;
-        margin-left: 30px;
-        margin-bottom: 50px;
+        padding: 30px 50px 50px;
+        margin: 0 0 50px 30px;
         flex-direction: row;
     }
 
@@ -582,8 +581,7 @@ body {
 
     .avatar {
         filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
-        margin-right: 60px;
-        margin-top: -90px;
+        margin: -70px 60px 0 0;
     }
 
     .cart {
@@ -615,8 +613,7 @@ body {
         width: fit-content;
         height: fit-content;
         position: fixed;
-        margin-top: -485px;
-        margin-left: -85px;
+        margin:  -485px 0 0 -85px;
         flex-direction: column;
         transition: all 0.5s ease-out;
         z-index: 1;
